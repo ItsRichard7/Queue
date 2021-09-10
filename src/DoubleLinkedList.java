@@ -64,18 +64,4 @@ public class DoubleLinkedList {
         }
         System.out.println("Cola con un tamaño de: " + this.size + " elementos");
     }
-/*
-    // Metodo principal para probar la lista
-    public static void main(String[] args) {
-        DoubleLinkedList list = new DoubleLinkedList();
-        list.insertNode(10);
-        list.insertNode(20);
-        list.insertNode(30);
-        list.insertNode(40);
-        list.insertNode(50);
-        list.insertNode(60);
-        list.deleteFirst();
-        list.printList();
-    }
-    */
 }
