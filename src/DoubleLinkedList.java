@@ -50,9 +50,9 @@ public class DoubleLinkedList {
         }
     }
 
-    // Metodo para retornar el ultimo nodo de la lista
-    public Node getLast() {
-        return this.rear;
+    // Metodo para retornar el primer nodo de la lista
+    public Node getFront() {
+        return this.head;
     }
 
     // Metodo para imprimir la lista en la consola y su tamaño
@@ -62,7 +62,7 @@ public class DoubleLinkedList {
             System.out.println(tmp.getData());
             tmp = tmp.next;
         }
-        System.out.println("Lista con un tamaño de: " + this.size + " elementos");
+        System.out.println("Cola con un tamaño de: " + this.size + " elementos");
     }
 /*
     // Metodo principal para probar la lista
