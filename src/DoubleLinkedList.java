@@ -57,11 +57,11 @@ public class DoubleLinkedList {
 
     // Metodo para imprimir la lista en la consola y su tamaño
     public void printList() {
-        Node tmp = this.head;
-        while (tmp != null) {
+        Node tmp = this.head;  // variable con la cabeza para reccorrer la lista
+        while (tmp != null) {  // recorre la lista iterativamente mientras va imprimiendo la data de los nodos por los que pasa
             System.out.println(tmp.getData());
             tmp = tmp.next;
         }
-        System.out.println("Cola con un tamaño de: " + this.size + " elementos");
+        System.out.println("Cola con un tamaño de: " + this.size + " elementos"); // imprimir el tamaño de la lista
     }
 }
